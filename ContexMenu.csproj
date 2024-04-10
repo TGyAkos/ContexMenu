@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Icons\Page.png" />
+    <None Remove="Icons\Page_copy.png" />
+    <None Remove="Icons\Page_paste.png" />
+    <None Remove="Icons\Page_save.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Icons\Page.png" />
+    <Resource Include="Icons\Page_copy.png" />
+    <Resource Include="Icons\Page_paste.png" />
+    <Resource Include="Icons\Page_save.png" />
+  </ItemGroup>
+
+</Project>
